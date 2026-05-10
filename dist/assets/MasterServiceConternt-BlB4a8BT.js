@@ -1,0 +1,1 @@
+import{j as e}from"./index-SMLiIMwR.js";const t=({link:n,title:s,service:r,marijuana:i,lastChild:d})=>e.jsx("div",{className:`${i?"":"media"} ${d?"border-0 m-0":""}`,children:e.jsxs("div",{className:"media-body",children:[e.jsx("h4",{children:s}),e.jsx("p",{children:r})]})});export{t as M};

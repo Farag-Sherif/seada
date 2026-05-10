@@ -1,0 +1,494 @@
+/*=====================
+    Custom RTL CSS
+==========================*/
+
+/* Global RTL styles */
+html.rtl,
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Form elements RTL */
+.rtl .form-control,
+.rtl .form-select,
+.rtl input,
+.rtl textarea,
+.rtl select {
+  text-align: right;
+  direction: rtl;
+}
+
+.rtl .form-label {
+  text-align: right;
+}
+
+/* Button alignment */
+.rtl .btn {
+  text-align: center;
+}
+
+/* Card and container alignment */
+.rtl .card,
+.rtl .container,
+.rtl .row {
+  direction: rtl;
+}
+
+.rtl .card-body,
+.rtl .card-header,
+.rtl .card-footer {
+  text-align: right;
+}
+
+/* Navigation RTL */
+.rtl .navbar-nav {
+  direction: rtl;
+}
+
+.rtl .nav-link {
+  text-align: right;
+}
+
+/* List RTL */
+.rtl ul,
+.rtl ol {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.rtl li {
+  text-align: right;
+}
+
+/* Modal RTL */
+.rtl .modal-content {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .modal-header,
+.rtl .modal-body,
+.rtl .modal-footer {
+  text-align: right;
+}
+
+/* Alert RTL */
+.rtl .alert {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Table RTL */
+.rtl table {
+  direction: rtl;
+}
+
+.rtl th,
+.rtl td {
+  text-align: right;
+}
+
+/* Accordion RTL */
+.rtl .accordion-button {
+  text-align: right;
+  direction: rtl;
+}
+
+.rtl .accordion-body {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Badge and label RTL */
+.rtl .badge,
+.rtl .label {
+  text-align: center;
+}
+
+/* Progress bar RTL */
+.rtl .progress {
+  direction: ltr; /* Keep progress bars LTR for visual consistency */
+}
+
+/* Dropdown RTL */
+.rtl .dropdown-menu {
+  text-align: right;
+  direction: rtl;
+}
+
+.rtl .dropdown-item {
+  text-align: right;
+}
+
+/* Pagination RTL */
+.rtl .pagination {
+  direction: rtl;
+}
+
+.rtl .page-link {
+  text-align: center;
+}
+
+/* Breadcrumb RTL */
+.rtl .breadcrumb {
+  direction: rtl;
+}
+
+.rtl .breadcrumb-item {
+  text-align: right;
+}
+
+/* Spinner RTL */
+.rtl .spinner-border,
+.rtl .spinner-grow {
+  margin-left: 0.25rem;
+  margin-right: 0;
+}
+
+/* Custom utility classes */
+.rtl .text-start {
+  text-align: right !important;
+}
+
+.rtl .text-end {
+  text-align: left !important;
+}
+
+.rtl .ms-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.rtl .me-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+/* Flexbox RTL adjustments */
+.rtl .d-flex {
+  direction: rtl;
+}
+
+.rtl .justify-content-start {
+  justify-content: flex-end !important;
+}
+
+.rtl .justify-content-end {
+  justify-content: flex-start !important;
+}
+
+/* Grid RTL */
+.rtl .row {
+  direction: rtl;
+}
+
+/* Custom component RTL */
+.rtl .theme-card {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .theme-form {
+  direction: rtl;
+}
+
+.rtl .theme-form .form-group {
+  text-align: right;
+}
+
+/* Product box RTL */
+.rtl .product-box {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .product-detail {
+  text-align: right;
+}
+
+/* Header RTL */
+.rtl .main-menu {
+  direction: rtl;
+}
+
+
+.rtl .header-dropdown {
+  direction: rtl;
+}
+
+/* Footer RTL */
+.rtl footer {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .footer-contant {
+  text-align: right;
+}
+
+/* Search RTL */
+.rtl .search-overlay {
+  direction: rtl;
+}
+
+.rtl .search-overlay input {
+  text-align: right;
+}
+
+/* Cart RTL */
+.rtl .add_to_cart {
+  direction: rtl;
+}
+
+.rtl .cart_media {
+  direction: rtl;
+}
+
+/* Service block RTL */
+.rtl .service-block {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .service-block .media {
+  direction: rtl;
+}
+
+.rtl .service-block .media-body {
+  text-align: right;
+}
+
+/* Testimonial RTL */
+.rtl .testimonial {
+  direction: rtl;
+}
+
+.rtl .testimonial .media {
+  direction: rtl;
+}
+
+.rtl .testimonial .media-body {
+  text-align: right;
+}
+
+/* Blog RTL */
+.rtl .blog-detail {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .blog-media {
+  direction: rtl;
+}
+
+/* Contact RTL */
+.rtl .contact-page {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .contact-right {
+  text-align: right;
+}
+
+/* Checkout RTL */
+.rtl .checkout-page {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .order-box {
+  direction: rtl;
+}
+
+/* Dashboard RTL */
+.rtl .dashboard-section {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .dashboard-box {
+  direction: rtl;
+}
+
+/* FAQ RTL */
+.rtl .faq-section {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl .accordion {
+  direction: rtl;
+}
+
+/* Typography RTL */
+.rtl .typography_section {
+  direction: rtl;
+  text-align: right;
+}
+
+/* About page RTL */
+.rtl .about-page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Team section RTL */
+.rtl .team {
+  direction: rtl;
+}
+
+.rtl .team h2 {
+  text-align: right;
+}
+
+/* Portfolio RTL */
+.rtl .portfolio-section {
+  direction: rtl;
+}
+
+/* Collection RTL */
+.rtl .collection-product-wrapper {
+  direction: rtl;
+}
+
+.rtl .product-top-filter {
+  direction: rtl;
+}
+
+/* Shop RTL */
+.rtl .shop-page {
+  direction: rtl;
+}
+
+/* Product detail RTL */
+.rtl .product-right {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Compare RTL */
+.rtl .compare-section {
+  direction: rtl;
+}
+
+/* Wishlist RTL */
+.rtl .wishlist-section {
+  direction: rtl;
+}
+
+/* Cart page RTL */
+.rtl .cart-section {
+  direction: rtl;
+}
+
+/* Order success RTL */
+.rtl .order-success-sec {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Vendor RTL */
+.rtl .vendor-profile {
+  direction: rtl;
+}
+
+/* Lookbook RTL */
+.rtl .lookbook-page {
+  direction: rtl;
+}
+
+/* Site map RTL */
+.rtl .sitemap_page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Coming soon RTL */
+.rtl .coming-soon {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Review page RTL */
+.rtl .review-page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Blog page RTL */
+.rtl .blog-page {
+  direction: rtl;
+}
+
+.rtl .blog-sidebar {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Blog detail RTL */
+.rtl .blog-detail-page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Comment section RTL */
+.rtl .comment-section {
+  direction: rtl;
+}
+
+.rtl .comment-section .media {
+  direction: rtl;
+}
+
+/* Newsletter RTL */
+.rtl .newsletter {
+  direction: rtl;
+}
+
+/* Social media RTL */
+.rtl .social-media {
+  direction: rtl;
+}
+
+/* Loading RTL */
+.rtl .loader-wrapper {
+  direction: ltr; /* Keep loader LTR for visual consistency */
+}
+
+/* Error page RTL */
+.rtl .error-page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Maintenance RTL */
+.rtl .maintenance-page {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Print RTL */
+@media print {
+  .rtl {
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+/* High contrast RTL */
+@media (prefers-contrast: high) {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+/* Reduced motion RTL */
+@media (prefers-reduced-motion: reduce) {
+  .rtl * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

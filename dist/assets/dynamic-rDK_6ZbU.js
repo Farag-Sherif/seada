@@ -1,0 +1,1 @@
+import{r as s,j as t}from"./index-SMLiIMwR.js";function u(e,r={}){const c=s.lazy(async()=>{const n=await e();return{default:n.default||n}}),a=r.loading;return function(o){return t.jsx(s.Suspense,{fallback:a?t.jsx(a,{...o}):null,children:t.jsx(c,{...o})})}}export{u as d};
